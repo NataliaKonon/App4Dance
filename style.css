@@ -1,6 +1,7 @@
 .gaga {
 
     text-align: center;
+    margin:auto;
 }
 
 #hero {
@@ -8,7 +9,22 @@
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
-    height: 587px;
+    height: 700px;
+}
+
+.logo {
+    width: 350px;
+    margin-top: 30px;
+    margin-bottom: 65px;
+}
+
+h1 {
+    font-size: 70px;
+    font-family: Helvetica;
+}
+h2 {
+    color: white;
+    letter-spacing: 1px;
 }
 .update {
     font-size: 24px;
@@ -23,24 +39,41 @@
     background-color: rgba(23,74,147,0.7);
 }
 .orange-icon {
-    width: 60px;
+    width: 80px;
+    height: 80px;
+    padding: 2%;
 }
 
 .middle-line {
-    font-size: 24px;
+    font-size: 30px;
     color: #3268AE;
+    margin-top: 90px;
+    margin-bottom: 70px;
 }
 
-.p {
+img + p {
     color: #0B346A;
+    font-size: 25px;
 }
 
 .blue-footer {
 background-color: #174A93;
-height: 100px;
+/* height: 100px; */
+margin-top: 90px;
 }
 
 
 .f-icon {
     width: 44px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+.btn-danger {
+    background-color: #FF6F41;
+    border-color: #FF6F41;
+}
+.text-orange {
+    color: #FF6F41;
 }
