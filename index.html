@@ -34,9 +34,9 @@
                 <div class="input-group mb-2 mr-sm-2">
                     <div class="input-group-prepend">
 
+                        <input type="email" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Your email" name="email">
                     </div>
-                    <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Your email" name="email">
-                </div>
+                    </div>
 
 
                 <button type="submit" class="btn btn-danger mb-2 px-5 sign-up">Sign Up!</button>
@@ -122,9 +122,9 @@
                 type: $(this).attr("method") || "get",
                 data: $(this).serialize(),
                 success: function () {
-                    $(that).children("input").val("") // Clear all inputs
-                    $(that).children("button").text("Sent!") // Change the button the text the button
-                    $(that).children("button").attr("disabled", "") // Make the button disabled
+                    $(that).find("input").val("") // Clear all inputs
+                    $(that).find("button").text("Sent!") // Change the button the text the button
+                    $(that).find("button").attr("disabled", "") // Make the button disabled
                 }
             });
         });
