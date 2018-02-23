@@ -1,3 +1,7 @@
+body {
+
+    margin:auto;
+}
 .gaga {
 
     text-align: center;
@@ -8,8 +12,8 @@
     background-image: url(images/laurencia.png);
     background-size: cover;
     background-position-x: right;
-    /* background-position-y: center; */
-    height: 700px;
+    background-position-y: center;
+    min-height: 700px;
 }
 
 .logo {
@@ -37,6 +41,9 @@ h2 {
 
 .transparent-blue {
     background-color: rgba(23,74,147,0.7);
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 .orange-icon {
     width: 80px;
@@ -49,6 +56,7 @@ h2 {
     color: #3268AE;
     margin-top: 90px;
     margin-bottom: 70px;
+    overflow: auto;
 }
 
 img + p {
@@ -76,4 +84,13 @@ margin-top: 90px;
 }
 .text-orange {
     color: #FF6F41;
+}
+
+.form-inline {
+    padding: 30px;
+}
+
+.update {
+    margin-top: 30px;
+    margin-bottom: 0px;
 }
