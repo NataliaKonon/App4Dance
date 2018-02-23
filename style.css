@@ -1,0 +1,46 @@
+.gaga {
+
+    text-align: center;
+}
+
+#hero {
+    background-image: url(images/laurencia.png);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    height: 587px;
+}
+.update {
+    font-size: 24px;
+    color: #FF6F41;
+    }
+
+.sign-up {
+    background-color: #FF6F41;
+}
+
+.transparent-blue {
+    background-color: rgba(23,74,147,0.7);
+}
+.orange-icon {
+    width: 60px;
+}
+
+.middle-line {
+    font-size: 24px;
+    color: #3268AE;
+}
+
+.p {
+    color: #0B346A;
+}
+
+.blue-footer {
+background-color: #174A93;
+height: 100px;
+}
+
+
+.f-icon {
+    width: 44px;
+}
