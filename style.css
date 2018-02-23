@@ -7,8 +7,8 @@
 #hero {
     background-image: url(images/laurencia.png);
     background-size: cover;
-    background-position-x: center;
-    background-position-y: center;
+    background-position-x: right;
+    /* background-position-y: center; */
     height: 700px;
 }
 
